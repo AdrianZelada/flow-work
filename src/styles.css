@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+.flow{
+    width: 400px;
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.active{
+    border: 2px solid rgb(31, 243, 95);   
+}
+ul{
+    /* line */
+    list-style-type: none;
+}

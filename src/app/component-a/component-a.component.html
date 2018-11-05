@@ -1,0 +1,8 @@
+<div class="flow" [ngClass]="{'active': isActive}">
+  <p>
+      component-a works! <span class="active" *ngIf="isActive"> Activo</span>
+  </p>
+  <label for="">Nombre : </label>
+  <input type="text" #text>
+  <button (click)="next(text.value)"> Next Flow</button>
+</div>
